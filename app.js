@@ -4,7 +4,7 @@ $(document).ready(function() {
 // originally forked from teamtreehouse.com
 // ammended with live search feature, code cleanup, and comments by Matt Thurmond @ 03/26/2017 
 
- var flickrAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+ var flickrAPI = "https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
 
 //trigger a function when user adjusts the input text
  $('#search').keyup(function () {
